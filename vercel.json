@@ -11,11 +11,5 @@
       "src": "/(.*)",
       "dest": "/"
     }
-  ],
-  "rewwrites": [
-    {
-      "source": "/api/:match*",
-      "destination": "https://netease-cloud-music-api-ruby-zeta.vercel.app/:match*"
-    }
   ]
 }
